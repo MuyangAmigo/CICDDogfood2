@@ -33,8 +33,8 @@ jobs:
       # Different folder structures require different commands set.
       # 'npm ci' is used here to install dependencies and it depends on package-lock.json.
       # If you prefer to use 'npm ci', please make sure to commit package-lock.json first, or just change it to 'npm install'.
-      - name: Build the project
-        run: cd tabs && npm install && npm run build
+      # - name: Build the project
+      #   run: cd tabs && npm install && npm run build
 
       # Run unit test.
       # Currently, no opinioned solution for unit test provided during scaffolding, so,
